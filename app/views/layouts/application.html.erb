@@ -7,6 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header id="header">
+				<nav id="nav">
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li>
+							<a href="">Layouts</a>
+							<ul>
+								<li><a href="left_sidebar.html">Left Sidebar</a></li>
+								<li><a href="right_sidebar.html">Right Sidebar</a></li>
+								<li><a href="no_sidebar.html">No Sidebar</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+<li><%= link_to 'English', :locale => :en %></li>
 <%= yield %>
 
 </body>
