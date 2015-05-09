@@ -22,4 +22,21 @@
 en:
   pages:
     home:
-      title: "@@The future has landed."
+      dtitle: "@@The future has landed."
+    right_sidebar:
+      dholidaytitle: "Holiday"
+      dtitlewords: "These are just a few of our holiday treats, cakes, and cookies! "
+      dtitleone: "Bûche de Noël"
+      dparaone: "also known as a Yule Log. Paris Bakery makes theirs with a genoise, rolled with buttercream. Choice of chocolate, praline, coffee, or Grand Marnier."
+      dtitletwo: "Galettes des Rois"
+      dparatwo: "made with pâte feuilletée (puff pastry dough) filled with an almond cream. Paris Bakery also makes them with a small porcelain figure inside, and sold with a decorative crown."
+      dtitlethree: "Christmas Stollen"
+      dparathree: "made with just the right amount of candied fruit and almond fillling."
+      dtitlefour: "Holiday Cookies"
+      dparafour: "For every holiday, we make a large variety of decorated cookies."
+      dtitlefive: "Mardi Gras Cake"
+      dparafive: "Made with a brioche dough and cinnamon, and decorated with whipped cream and crystalized sugar."
+      djoin: "Join us to celebrate all kinds of festivals!"
+      ddifferent: "Different selections with various ingredients."
+      dexplore: "Explore the possibilities of desserts."
+      deat: "Eat, pray, love! :)"
