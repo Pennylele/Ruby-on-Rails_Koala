@@ -1599,10 +1599,10 @@
 	#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
-				margin-left: 3em;
+				height: ;
+				margin-left: 7em;
 				vertical-align: middle;
-				width: 18em;
+				width: 25em;
 			}
 
 	#banner .content .image img {
@@ -1667,3 +1667,38 @@
 	#footer .copyright li a {
 					color: inherit;
 				}
+
+	p.info {
+		margin: 0 0 0.5em 0;
+		text-align: center;
+	}
+	p.seaside{
+		margin-top: 5em;
+		text-align: center;
+	}
+	p.say{
+		padding-right: 900px	;
+		padding-left: 3em;
+	}
+	p.toright{
+		padding-left: 14em;
+
+	}
+	
+
+	}
+h3.info{
+		color: #ffffff;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 2em 0 0.5em 0;
+		text-align: center;
+	}
+.image.info {
+			display: block;
+			margin: 0 auto;
+			width: 507px;
+			height:460px;
+			/*float: right;*/
+
+	}

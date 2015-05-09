@@ -22,6 +22,15 @@
 en:
   pages:
     home:
+      kaytitle: "CodeMinions Bakery"
+      kayp1: "It's for a quick lunch or a leisurely café au lait"
+      kayp2: "Please stop by!"
+      kaytitle2: "What People Are Saying About CodeMinions Bakery"
+      kayp3: "Best pastries and breads have been baked daily here!"
+      kayp4: "My wife and I liked this so much we ended up eating here three days in a row. Great pastries and rolls, even better prices for the value of food you get. Locals seem to really like this place as well. A must try for breakfast in Monterey."
+      kayp5: "- TripAdvisor.com"
+      kayp6: "I think the breads are wonderful. Although, they are definitely healthy and nutritious, they are some of the best I have ever tasted. If you love chocolate like I do, get the best of two worlds with Bread and Chocolate. Try it toasted with a touch of butter - GREAT!"
+      kayp7: "- Kay -- Montery, CA"
       lfseg01: "ABOUT THE BAKERY"
       lfseg02: "Jackie Jegat"
       lfseg03: "Master Baker Jackie Jegat, the owner and founder of Paris Bakery, was born in Doué-la-Fontaine, France where he began his baking career at the age of 16. He started as a baker's apprentice for a shop in Saumur, France. After two years of apprenticeship, he moved to Paris. In 1978, at age 23, Jackie opened his first bakery in Chatou, a suburb of Paris, where he soon brought his brother Eric to serve as his apprentice."
@@ -85,3 +94,15 @@ en:
       yulpaninides: "Chicken pesto grillied in a panini machine."
       yulveggie: "Veggie Delight"
       yulveggiedes: "Made on a whole wheat or white Francesca sandwich roll, filled with lots of seasonal veggies."
+    information:
+     lisaTitle: "Where We Are"
+     lisaIntro: "Paris Bakery is located in beautiful downtown Monterey, California, just steps from the Monterey Bay, Cannery Row, and other world-class attractions."
+     lisaMonterey: "In Monterey"
+     lisaTime1: "6:00 am - 6:00 pm, Monday through Saturday."
+     lisaTime2: "6:30 am - 4:30 pm. Sunday."
+     lisaSeaside: "A wholesale/retail store, catering primarily to the wholesale market, is located in Seaside, California, at 1232 Broadway Avenue."
+     lisaInSeaside: "In Seaside"
+     lisaTime3: "7:00 am 3:00 pm, Monday through Friday."
+     lisaTime4: "7:00 am - 1:00 pm, Saturday and Sunday."
+     lisaCustomer: "What People Are Saying About Us"
+     lisaCustomerContent: "My wife and I liked this so much we ended up eating here three days in a row. Great pastries and rolls, even better prices for the value of food you get. Locals seem to really like this place as well. A must try for breakfast in Monterey."
