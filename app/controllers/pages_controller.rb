@@ -3,13 +3,13 @@ class PagesController < ApplicationController
 	def home
 	end
 
-	def left_sidebar
+	def selection
   	end
 
-  	def right_sidebar
+  	def holiday
 	end
 
-	def no_sidebar
+	def information
   	end
 
 end

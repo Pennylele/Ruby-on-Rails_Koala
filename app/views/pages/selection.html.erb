@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title>Left Sidebar - Landed by HTML5 UP</title>
+		<title><%= t('.yulselection') %></title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -33,53 +33,88 @@
 			<div id="main" class="wrapper style1">
 				<div class="container">
 					<header class="major">
-						<h2>Left Sidebar</h2>
-						<p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+						<h2><%= t('.yulh2') %></h2>
+						<p><%= t('.yulsubtitile') %></p>
+						<div class="image fit"><img src="http://www.parisbakery.us/sites/default/files/styles/header-image/public/case_1.jpg?itok=0Cztp_IC" alt="" /></div>
 					</header>
 					<div class="row 150%">
 						<div class="4u 12u$(medium)">
 
 							<!-- Sidebar -->
 								<section id="sidebar">
-									<section>
-										<h3>Magna Feugiat</h3>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
+										<section>
+									    <h3><%= t('.yulcafe') %></h3>
+										<div class="image fit"><img src="http://www.parisbakery.us/sites/default/files/styles/header-image/public/cafe-header.jpg?itok=wP9uZ8Na" /></div>
+										<p><%= t('.yulcafedes') %></p>
 										<footer>
 											<ul class="actions">
-												<li><a href="#" class="button">Learn More</a></li>
+												<li><a href="#" class="button"><%= t('.yulcafemore') %></a></li>
 											</ul>
 										</footer>
 									</section>
 									<hr />
+
 									<section>
-										<div class="image fit"><img src="assets/koala.jpg" alt="" /></div>
-										<h3>Amet Lorem Tempus</h3>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<h3><%= t('.yulcookies') %></h3>
+										<div class="image fit"><img src="http://www.parisbakery.us/sites/default/files/styles/header-image/public/cookies_header.jpg?itok=MJ6LG7Im" /></div>
+										<p><%= t('.yulcookiesdes') %></p>
 										<footer>
 											<ul class="actions">
-												<li><a href="#" class="button">Learn More</a></li>
+												<li><a href="#" class="button"><%= t('.yulcookiesmore') %></a></li>
+											</ul>
+										</footer>
+									</section>
+									<hr />
+
+									<section>
+									    <h3><%= t('.yulsoup') %></h3>
+										<div class="image fit"><img src="http://www.parisbakery.us/sites/default/files/styles/header-image/public/soup-header.jpg?itok=8p4NboeL" /></div>
+										<p><%= t('.yulsoupdes') %></p>
+										<footer>
+											<ul class="actions">
+												<li><a href="#" class="button"><%= t('.yulcookiesmore') %></a></li>
 											</ul>
 										</footer>
 									</section>
 								</section>
-
 						</div>
 						<div class="8u$ 12u$(medium) important(medium)">
 
 							<!-- Content -->
 								<section id="content">
-									<a href="#" class="image fit"><img src="assets/koala.jpg" alt="" /></a>
-									<h3>Dolore Amet Consequat</h3>
-									<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-									<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
-									<h3>Sed Magna Ornare</h3>
-									<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+									<h3><%= t('.yulsweet') %></h3>
+									<div class="image fit"><img src="http://www.parisbakery.us/sites/default/files/styles/header-image/public/fruit-tart.jpg?itok=im-1hQoV" /></div>
+									<p><%= t('.yulsweetdes') %></p>
+
 									<ul>
-										<li>Faucibus orci lobortis ac adipiscing integer.</li>
-										<li>Col accumsan arcu mi aliquet placerat.</li>
-										<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-										<li>Blandit massa non blandit tempor interdum.</li>
-										<li>Lacinia mattis arcu nascetur lobortis.</li>
+										<li class="description"><%= t('.yulnapoleon') %><div><img src="http://www.parisbakery.us/sites/default/files/napolean.jpg" /></div></li>
+										<p><%= t('.yulnapoleondes') %></p>
+										<li class="description"><%= t('.yulchocolate') %><div><img src="http://www.parisbakery.us/sites/default/files/choc_eclaire2.jpg" /></div></li>
+										<p><%= t('.yulchocolatedes') %></p>
+										<li class="description"><%= t('.yulprincess') %><div><img src="http://www.parisbakery.us/sites/default/files/princess_cake.jpg" /></div></li>
+										<p><%= t('.yulprincessdes') %></p>
+										<li class="description"><%= t('.yulfraiser') %><div><img src="http://www.parisbakery.us/sites/default/files/fraisier.jpg" /></div></li>
+										<p><%= t('.yulfraiserdes') %></p>
+										<li class="description"><%= t('.yulfruit') %>Fruit Tart<div><img src="http://www.parisbakery.us/sites/default/files/fruit_tart.jpg" /></div></li>
+										<p><%= t('.yulfruitdes') %></p>
+									</ul>
+									<hr />
+
+									<h3><%= t('.yulsavory') %></h3>
+									<div class="image fit"><img src="http://www.parisbakery.us/sites/default/files/styles/header-image/public/sandwich.jpg?itok=0H70yPrT" /></div>
+									<p><%= t('.yulsavorydes') %></p>
+									
+									<ul id="sectiondiv">
+										<li class="description"><%= t('.yulpain') %><div><img src="http://www.parisbakery.us/sites/default/files/turkey_petitpain.jpg" /></div></li>
+										<p><%= t('.yulpaindes') %></p>
+										<li class="description"><%= t('.yulcroque') %><div><img src="http://www.parisbakery.us/sites/default/files/croque-sm.jpg" /></div></li>
+										<p><%= t('.yulcroquedes') %></p>
+										<li class="description"><%= t('.yuljambon') %><div><img src="http://www.parisbakery.us/sites/default/files/jambon_buerre.jpg" /></div></li>
+										<p><%= t('.yuljambondes') %></p>
+										<li class="description"><%= t('.yulpanini') %><div><img src="http://www.parisbakery.us/sites/default/files/chicken_paninni.jpg" /></div></li>
+										<p><%= t('.yulpaninides') %></p>
+										<li class="description"><%= t('.yulveggie') %><div><img src="http://www.parisbakery.us/sites/default/files/veggie_delite.jpg" /></div></li>
+										<p><%= t('.yulveggiedes') %></p>
 									</ul>
 								</section>
 
