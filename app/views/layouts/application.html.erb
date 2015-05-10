@@ -22,19 +22,18 @@
 				<ul>
 				<li><a href=""><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.two') %></a></li>
 					
-					<ul class="dropdown">
+					<ul>
 						<li><%= link_to t('.three'), selection_path %></li>
 						<li><%= link_to t('.four'), holiday_path %></li>
 						<li><%= link_to t('.five'), information_path %></li>
 					</ul>
-
 			</ul>
 		</nav>
 	</header>
 
-				<%= yield %>
-	
+<%= yield %>
 
 </body>
+
 </html>
 
