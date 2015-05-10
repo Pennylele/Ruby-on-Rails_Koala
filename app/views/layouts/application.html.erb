@@ -20,18 +20,17 @@
 								</li>
 							</ul>
 						</li>
+						<li><%= link_to 'English', :locale => :en %></li>
+						<li><%= link_to '简体中文', :locale => :zh_CN %></li>
+						<li><%= link_to '繁體中文', :locale => :zh_TW %></li>
+						<li><%= link_to 'español', :locale => :es %></li>
+						<li><%= link_to 'français', :locale => :fr %></li>
+						<li><%= link_to 'pseudo', :locale => :pseudo %></li>
+
 					</ul>
 				</nav>
 			</header>
 
 <%= yield %>
-<footer>
-<li><%= link_to 'English', :locale => :en %></li>
-<li><%= link_to '简体中文', :locale => :zh_CN %></li>
-<li><%= link_to '繁體中文', :locale => :zh_TW %></li>
-<li><%= link_to 'Spanish', :locale => :es %></li>
-<li><%= link_to 'Fench', :locale => :fr %></li>
-</footer>
-
 </body>
 </html>
