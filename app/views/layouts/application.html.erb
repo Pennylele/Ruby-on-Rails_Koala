@@ -10,13 +10,13 @@
 <header id="header">
 				<nav id="nav">
 					<ul>
-						<li><a href="home.html"><img src="assets/heart.png" style="width:25px; height:25px"/>Home</a></li>
+						<li><a href="home.html"><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.one') %></a></li>
 						<li>
-							<a href=""><img src="assets/heart.png" style="width:25px; height:25px"/>About</a>
+							<a href=""><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.two') %></a>
 							<ul>
-								<li><a href="selection.html">Selections</a></li>
-								<li><a href="holiday.html">Holiday Specials</a></li>
-								<li><a href="information.html">Information</a></li>
+								<li><a href="selection.html"><%= t('.three') %></a></li>
+								<li><a href="holiday.html"><%= t('.four') %></a></li>
+								<li><a href="information.html"><%= t('.five') %></a></li>
 								</li>
 							</ul>
 						</li>
@@ -30,7 +30,7 @@
 <li><%= link_to '简体中文', :locale => :zh_CN %></li>
 <li><%= link_to '繁體中文', :locale => :zh_TW %></li>
 <li><%= link_to 'Spanish', :locale => :es %></li>
-<li><%= link_to 'Fench', :locale => :FR %></li>
+<li><%= link_to 'Fench', :locale => :fr %></li>
 </footer>
 
 </body>

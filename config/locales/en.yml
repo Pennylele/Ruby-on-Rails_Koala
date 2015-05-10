@@ -20,6 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  layouts:
+    application:
+      one: "Home"
+      two: "About"
+      three: "Selections"
+      four: "Holiday Specials"
+      five: "information"
   pages:
     home:
       kaytitle: "CodeMinions Bakery"
