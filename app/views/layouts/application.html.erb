@@ -2,35 +2,39 @@
 <html>
 <head>
   <title>MyApp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
-<header id="header">
-				<nav id="nav">
-					<ul>
-						<li><a href="home.html"><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.one') %></a></li>
-						<li>
-							<a href=""><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.two') %></a>
-							<ul>
-								<li><a href="selection.html"><%= t('.three') %></a></li>
-								<li><a href="holiday.html"><%= t('.four' )%></a></li>
-								<li><a href="information.html"><%= t('.five') %></a></li>
-								</li>
-							</ul>
-						</li>
-						<li><%= link_to 'English', :locale => :en %></li>
-						<li><%= link_to '简体中文', :locale => :zh_CN %></li>
-						<li><%= link_to '繁體中文', :locale => :zh_TW %></li>
-						<li><%= link_to 'español', :locale => :es %></li>
-						<li><%= link_to 'français', :locale => :fr %></li>
-						<li><%= link_to 'pseudo', :locale => :pseudo %></li>
 
+	<header id="header">
+				<li class="lan"><%= link_to 'English', :locale => :en %></li>
+				<li class="lan"><%= link_to '简体中文', :locale => :zh_CN %></li>
+				<li class="lan"><%= link_to '繁體中文', :locale => :zh_TW %></li>
+				<li class="lan"><%= link_to 'Español', :locale => :es %></li>
+				<li class="lan"><%= link_to 'Français', :locale => :fr %></li>
+		<nav id="nav">
+				<ul>
+				<li><img src="assets/heart.png" style="width:25px; height:25px"/><%= link_to t('.one'), root_path %></li>
+				</ul>
+				<ul>
+				<li><a href=""><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.two') %></a></li>
+					
+					<ul class="dropdown">
+						<li><%= link_to t('.three'), selection_path %></li>
+						<li><%= link_to t('.four'), holiday_path %></li>
+						<li><%= link_to t('.five'), information_path %></li>
 					</ul>
-				</nav>
-			</header>
 
-<%= yield %>
+			</ul>
+		</nav>
+	</header>
+
+				<%= yield %>
+	
+
 </body>
 </html>
+
