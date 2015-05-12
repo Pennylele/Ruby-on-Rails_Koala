@@ -12,6 +12,7 @@ This is a Ruby-on-Rails static page web application localization project. Below 
 
 Instructions to view this app
 1. Install Ruby on rails: http://github.com/miis-l10n/website-l10n/blob/master/08_final_project_and_install_info/install.md
-2. Register on Github: http://github.com/
-3. Install Sublime: http://www.sublimetext.com/
+2. Go to https://github.com/Pennylele/Ruby-on-Rails_Koala to click "download ZIP" to download the files to your local and then unzip it.
+3. In terminal, cd to the downloaded folder and run "rails server".
+4. Open the browser and go to "localhost:3000"
 4. If you saw the message: "Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_ENV=development", please run the following command in your terminal: bin/rake db:migrate RAILS_ENV=development
