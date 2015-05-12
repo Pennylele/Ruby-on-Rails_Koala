@@ -14,3 +14,4 @@ Instructions to view this app
 1. Install Ruby on rails: http://github.com/miis-l10n/website-l10n/blob/master/08_final_project_and_install_info/install.md
 2. Register on Github: http://github.com/
 3. Install Sublime: http://www.sublimetext.com/
+4. If you saw the message: "Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_ENV=development", please run the following command in your terminal: bin/rake db:migrate RAILS_ENV=development
