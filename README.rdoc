@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CodeMinions Bakery Web Application Localization
 
-Things you may want to cover:
+Group members: Le Fang (Penny), Ning Li (Lisa), Yu Liang (Monica), Chi-chien Feng (Kay), Di Yang (Sophie)
 
-* Ruby version
+This is a Ruby-on-Rails static page web application localization project. Below are what we did in this project.
+1. Created the ruby-on-rails web application.
+2. Conducted a pseudo translation before localization for the testing purposes. 
+3. Localized it into Simplified Chinese, Traditional Chinese, Spanish, and French.
+4. Fixed bugs and any linguistic and funcitonal issues in the app.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Instructions to view this app
+1. Install Ruby on rails: http://github.com/miis-l10n/website-l10n/blob/master/08_final_project_and_install_info/install.md
+2. Register on Github: http://github.com/
+3. Install Sublime: http://www.sublimetext.com/
