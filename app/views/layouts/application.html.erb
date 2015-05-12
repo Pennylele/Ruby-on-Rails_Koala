@@ -10,25 +10,26 @@
 <body>
 
 	<header id="header">
-				<li class="lan"><%= link_to 'English', :locale => :en %></li>
-				<li class="lan"><%= link_to '简体中文', :locale => :zh_CN %></li>
-				<li class="lan"><%= link_to '繁體中文', :locale => :zh_TW %></li>
-				<li class="lan"><%= link_to 'Español', :locale => :es %></li>
-				<li class="lan"><%= link_to 'Français', :locale => :fr %></li>
-		<nav id="nav">
-				<ul>
-				<li><img src="assets/heart.png" style="width:25px; height:25px"/><%= link_to t('.one'), root_path %></li>
-				</ul>
-				<ul>
+		<li class="lan"><%= link_to 'English', :locale => :en %></li>
+		<li class="lan"><%= link_to '简体中文', :locale => :zh_CN %></li>
+		<li class="lan"><%= link_to '繁體中文', :locale => :zh_TW %></li>
+		<li class="lan"><%= link_to 'Español', :locale => :es %></li>
+		<li class="lan"><%= link_to 'Français', :locale => :fr %></li>
+	<nav id="nav">
+		<ul>
+			<li><img src="assets/heart.png" style="width:25px; height:25px"/><%= link_to t('.one'), root_path %>
+			</li>
+		</ul>
+			<ul>
 				<li><a href=""><img src="assets/heart.png" style="width:25px; height:25px"/><%= t('.two') %></a></li>
 					
-					<ul>
-						<li><%= link_to t('.three'), selection_path %></li>
-						<li><%= link_to t('.four'), holiday_path %></li>
-						<li><%= link_to t('.five'), information_path %></li>
-					</ul>
+				<ul>
+					<li><%= link_to t('.three'), selection_path %></li>
+					<li><%= link_to t('.four'), holiday_path %></li>
+					<li><%= link_to t('.five'), information_path %></li>
+				</ul>
 			</ul>
-		</nav>
+	</nav>
 	</header>
 
 <%= yield %>
